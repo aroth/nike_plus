@@ -1,3 +1,4 @@
+Gemfile.lock
 local_test.rb
 *.gem
 *.rbc
