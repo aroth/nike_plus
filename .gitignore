@@ -1,3 +1,4 @@
+local_test.rb
 *.gem
 *.rbc
 .bundle
