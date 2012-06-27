@@ -6,9 +6,9 @@ A Ruby library for accessing Nike+ data.
     gem install nike_plus
 
 ## Documentation
-    [http://rdoc.info/gems/nike_plus][documentation]
+  [http://rdoc.info/gems/nike_plus][documentation]
   
-    [documentation]: http://rdoc.info/gems/nike_plus
+  [documentation]: http://rdoc.info/gems/nike_plus
 
 ## Usage Example
     nike = NikePlus::Client.new( :email => 'test@nikeplus.com', :password => 'mypassword' )
