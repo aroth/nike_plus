@@ -8,7 +8,7 @@ A Ruby library for accessing Nike+ data.
 ## Documentation
   [http://rdoc.info/gems/nike_plus][documentation]
   
-  [documentation]: http://rdoc.info/gems/twitter
+  [documentation]: http://rdoc.info/gems/nike_plus
 
 ## Usage Example
     nike = NikePlus::Client.new( :email => 'test@nikeplus.com', :password => 'mypassword' )
