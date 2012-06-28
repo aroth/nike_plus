@@ -46,7 +46,6 @@ module NikePlus
   #   # Full details
   #   activity = nike.activity( summary.activityId ) # => NikePlus::Activity
   #   activity.geo.waypoints
-  #   activity.geo.mph 
   #
   # The fields above not gauranteed. For example, activities logged prior to the Nike+GPS app do not
   # return GPS or tag data. It's a good idea to inspect the ActivitySummary object to determine exactly what data 

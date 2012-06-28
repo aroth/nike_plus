@@ -83,7 +83,7 @@ module NikePlus
 
     ## Activity speed in kilometers per hour.
     def kmh
-      values = self.speed_values
+      values = speed_values
       return nil unless values and values.any?
       
       avg = sum = 0.0
@@ -116,7 +116,7 @@ module NikePlus
       sec = ( ( div - min ) * 60.0 )
       "#{ sprintf("%.2d", min ) }:#{ sprintf("%.2d", sec ) }"
     end
-  
+    
     private
     
     def speed_values

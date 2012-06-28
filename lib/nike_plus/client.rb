@@ -34,11 +34,11 @@ module NikePlus
       end
     end
 
-    # Return an array of NikePlus::ActivitySummary objects. To get full details on the activity use the #activity method.
+    # Return an array of NikePlus::ActivitySummary objects. To retrieve full details on the activity use the #activity method.
     #
     # Example:
     #   activities = nike.activities # => [NikePlus::ActivitySummary, NikePlus::ActivitySummary]
-    #   activity = nike.activity( activities[0]activityId ) # => NikePlus::Activity
+    #   activity = nike.activity( activities[0].activityId ) # => NikePlus::Activity
     def activities
       url = "http://nikeplus.nike.com/plus/activity/running/#{ @screenname }/lifetime/activities?indexStart=0&indexEnd=9999"
       data = get(url)
